@@ -19,7 +19,7 @@
   width: 100%;
   background-color: #00ddff;
   border-radius: 6px;
-  font-size: 3rem; /* Увеличьте размер шрифта на ваш выбор */
+  font-size: 7rem; /* Увеличьте размер шрифта на ваш выбор */
   color: #333;
   font-weight: bolder;
   display: flex;
@@ -28,10 +28,23 @@
   padding: 1.5rem; /* Увеличьте отступ, если необходимо */
 }
 
-h1 {
-  font-size: 2rem;
-  color: #333;
+.redCount {
+  width: 100%;
+  background-color: #00ddff;
+  border-radius: 6px;
+  font-size: 7rem; /* Увеличьте размер шрифта на ваш выбор */
+  color: #ff0145;
+  font-weight: bolder;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem; /* Увеличьте отступ, если необходимо */
 }
+
+/*h1 {*/
+/*  font-size: 2rem;*/
+/*  color: #333;*/
+/*}*/
 
 
 .buttonContainer {
@@ -45,8 +58,8 @@ h1 {
 }
 
 
-button {
-  font-size: 1rem;
+.buttonContainer > button {
+  font-size: 3rem;
   padding: 0.5rem 1rem;
   background-color: #00ddff;
   color: #1a1a1a;
@@ -56,11 +69,11 @@ button {
   margin: 0.5rem;
 }
 
-button:hover {
-  background-color: #01fbff;
+.buttonContainer > button:hover {
+  background-color: #ff0145;
 }
 
-button:disabled {
+.buttonContainer > button:disabled {
   background-color: #ccc; /* Измените цвет фона на серый */
   color: #888; /* Измените цвет текста на более светлый серый */
   cursor: not-allowed; /* Измените курсор на "не разрешен" */

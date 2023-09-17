@@ -7,7 +7,6 @@ type ButtonPropsType = {
 }
 
 export const Button = (props: ButtonPropsType) => {
-    console.log(props.disabled)
     return (
         <>
             <button onClick={() => props.callback()} disabled={props.disabled}>{props.name}</button>
